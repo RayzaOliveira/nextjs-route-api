@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  color: black;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
